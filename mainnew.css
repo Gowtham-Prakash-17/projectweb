@@ -1,0 +1,180 @@
+.container{
+   width: 1200px;
+   margin:0 auto;
+}
+.fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+#quick-links{
+
+  
+  height: 80px;
+  background-color: rgba(245,245,245,1);
+}
+
+#banner
+{
+    padding-top:100px;
+    height: 400px;
+    background-color: rgba(127, 255, 212, 1);
+}
+
+li 
+{
+  float: right;
+}
+
+li a 
+{
+  
+  text-align: center;
+  padding: 10px 20px;
+  
+}
+
+.button
+{
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#secti
+{
+  padding-top: 100px;
+  height: 400px;
+  background-color: rgba(245,245,245,1);
+
+}
+
+
+#secti .secticontainer
+{
+   display: flex;
+    justify-content: space-around;
+
+}
+#secti .sectibox{
+   background-color: white;
+    flex-basis: 50%;
+    padding: 50px;
+    box-shadow: rgb(231, 226, 226) 0px 0px 100px;
+    border-radius: 10px ;
+    
+
+
+}
+
+/*----------------SERVICE---------------------*/
+
+
+
+#service{
+    padding-top: 100px;
+    height: 650px;
+    background-color: rgba(127, 255, 212, 1);
+    text-align: center;
+    border: 1px solid #e2eefd;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-sizing: border-box;
+    
+}
+#service .section-title{
+    height: 250px;
+    justify-content: space-around;
+
+
+}
+#service .section-content .f-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    
+}
+#service .section-content .f-item{
+    background-color: white;
+    flex-basis: 100px;
+    padding: 30px;
+    box-shadow: rgb(231, 226, 226) 0px 0px 100px;
+    border-radius: 0px ;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+#service .button{
+  background-color: #f8f9fa;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+}
+
+/*----------------F.A.Q---------------------*/
+
+.faq{
+    padding: 60px 0;
+    padding-top: -50px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+}
+
+.section-bg{
+  background-color: #f6f9fe;
+}
+.sect-title h2{
+
+font-size: 13px;
+letter-spacing: 1px;
+font-weight: 700;
+padding: 30px 50px;
+margin: 0;
+background: #e7f1fd;
+color: #106eea;
+display: inline-block;
+text-transform: uppercase;
+border-radius: 50px;
+
+}
+
+.sect-title{
+  text-align: center;
+}
+
+#faq .faq  {
+
+padding: 600;
+  }
+
+.faq-list{
+  display: block;
+  position: relative;
+  font-size: 50px
+  font-weight:500;
+   text-align: left;
+}
+
